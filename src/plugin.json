@@ -1,0 +1,36 @@
+{
+  "type": "panel",
+  "name": "Parallel AQI",
+  "id": "Parallel-aqi",
+  "info": {
+    "description": "Echarts panel for grafana",
+    "author": {
+      "name": "Bilibala",
+      "url": "https://github.com/Billiballa"
+    },
+    "keywords": [
+      "echarts"
+    ],
+    "logos": {
+      "small": "img/line-graphic.png",
+      "large": "img/line-graphic.png"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/Billiballa/grafana-echarts"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/Billiballa/grafana-echarts/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}
