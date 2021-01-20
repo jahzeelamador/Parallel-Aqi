@@ -104,7 +104,7 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
       legend: {
         bottom: 0,
         data: series.map((item: any) => item.name),
-        itemGap: 20,
+        itemGap: 7,
         textStyle: {
           color: '#fff',
           fontSize: options.fontSize ? options.fontSize : 10,
@@ -160,8 +160,9 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
       // ],
       visualMap: {
         show: true,
-        right: 10,
+        right: 0,
         min: 0,
+        height: 20,
         max: options.max ? options.max : 1000,
         dimension: 2,
         inRange: {
@@ -170,9 +171,10 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
         },
       },
       parallel: {
-        left: '5%',
+        left: '10%',
         right: '18%',
-        bottom: 100,
+        bottom: 135,
+        top: 35,
         parallelAxisDefault: {
           type: 'value',
           name: 'AQI指数',
@@ -193,7 +195,7 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
             },
           },
           splitLine: {
-            show: false,
+            show: false,      
           },
           axisLabel: {
             color: '#fff',
